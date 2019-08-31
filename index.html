@@ -41,6 +41,7 @@
             max-height: 100%;
             /*margin: 10px 10px 10px 10px;*/
             object-fit: cover;
+            float:right;
         }
 
         h1 {
@@ -125,22 +126,26 @@
 </head>
 
 <body>
-<div id="landscape">
-    <h1 class="fn">Hi guys</h1>
-    <img src="images/me.jpg" alt="Photo of Me" id="pic"/></div>
 <div id="page-wrap">
+
+    <img src="images/me.jpg" alt="Photo of Me" id="pic"/>
 
 
     <div id="contact-info" class="vcard">
-        <!-- Microformats! -->
+        <h1 class="fn">LIM Yu Xi</h1>
         <p>
-            Email: <span class="tel">yu.xi@u.nus.edu</span><br/>
+            <strong>Degree:</strong> Bachelor of Computing (Honours) in Computer Science<br/>
+            <strong>Focus areas:</strong> Networking and Distributed Systems, Computer Security<br/>
+            <strong>University:</strong> National University of Singapore<br/>
+            <strong>Email:</strong> yu.xi@u.nus.edu<br/>
         </p>
     </div>
 
     <div id="objective">
         <p>
-            This is a page about myself, done for fun
+            I am currently studying Computer Science at the National Uiversity of Singapore.
+            I will be graduating soon at the end of 2019. <br/><br/>
+            My interests lie in cybersecurity, computer networks and digital forensics. See below for some of my personal projects.
         </p>
     </div>
 
@@ -149,52 +154,120 @@
     <dl>
         <dd class="clear"></dd>
 
-        <!--<dt>Education</dt>-->
-        <!--<dd>-->
-            <!--<h2>Withering Madness University - Planet Vhoorl</h2>-->
-            <!--<p><strong>Major:</strong> Public Relations<br/>-->
-                <!--<strong>Minor:</strong> Scale Tending</p>-->
-        <!--</dd>-->
+        <dt>Education</dt>
+        <dd>
+            <h2>National University of Singapore <span>Expected gratuation - Dec 2019</span></h2>
+            <p>Bachelor of Computing (Honours) in Computer Science<br/>
+                Focus areas: Networking and Distributed Systems, Computer Security</p>
 
-        <!--<dd class="clear"></dd>-->
-
-        <!--<dt>Skills</dt>-->
-        <!--<dd>-->
-            <!--<h2>Office skills</h2>-->
-            <!--<p>Office and records management, database administration, event organization, customer support, travel-->
-                <!--coordination</p>-->
-
-            <!--<h2>Computer skills</h2>-->
-            <!--<p>Microsoft productivity software (Word, Excel, etc), Adobe Creative Suite, Windows</p>-->
-        <!--</dd>-->
-
-        <!--<dd class="clear"></dd>-->
-
-        <!--<dt>Experience</dt>-->
-        <!--<dd>-->
-            <!--<h2>Doomsday Cult <span>Leader/Overlord - Baton Rogue, LA - 1926-2010</span></h2>-->
-            <!--<ul>-->
-                <!--<li>Inspired and won highest peasant death competition among servants</li>-->
-                <!--<li>Helped coordinate managers to grow cult following</li>-->
-                <!--<li>Provided untimely deaths to all who opposed</li>-->
-            <!--</ul>-->
-
-            <!--<h2>The Watering Hole <span>Bartender/Server - Milwaukee, WI - 2009</span></h2>-->
-            <!--<ul>-->
-                <!--<li>Worked on grass-roots promotional campaigns</li>-->
-                <!--<li>Reduced theft and property damage percentages</li>-->
-                <!--<li>Janitorial work, Laundry</li>-->
-            <!--</ul>-->
-        <!--</dd>-->
-
-        <!--<dd class="clear"></dd>-->
-        <dt>Dream</dt>
-        <dd>To have 3 dogs and 1 cat</dd>
+            <h2>Temasek Polytechnic</h2>
+            <p>Diploma in Digital Forensics with Merit</p>
+        </dd>
 
         <dd class="clear"></dd>
 
-        <dt>Hobbies</dt>
-        <dd>World Domination, Eating, Sleeping</dd>
+        <dt>Work Experience</dt>
+        <dd>
+            <h2>MobileODT</h2>
+            Quality Assurance Engineer (internship)
+            <ul>
+                <li>Write test scripts for company's product</li>
+                <li>Conduct automated testing</li>
+            </ul>
+
+            <h2>Resolvo Systems Pte Ltd</h2>
+            Security consultant (internship and full-time employment)
+            <ul>
+                <li>Penetration testing</li>
+                <li>Web application development</li>
+            </ul>
+
+            <h2>Temasek Polytechnic-IBM Security Operations Centre</h2>
+            Security analyst/Operations manager (internship)
+            <ul>
+                <li>Monitor and respond to security threats</li>
+            </ul>
+        </dd>
+
+        <dd class="clear"></dd>
+
+        <dt>Certifications</dt>
+        <dd>
+            <h2>OSCP Certification <span>Expected completion - Dec 2019</span></h2>
+            <ul>
+                <li>Identify existing security vulnerabilities and execute organized attacks</li>
+            </ul>
+
+            <h2>Red hat certified system administrator</h2>
+            <ul>
+                <li>Certified in performing the core system administration skills required in Red Hat Enterprise Linux 6 environments</li>
+            </ul>
+
+            <h2>AccessData certified forensics examiner</h2>
+            <ul>
+                <li>Certified in Forensic Toolkit (FTK) technology for data analysis and recovery</li>
+            </ul>
+
+            <h2>IT-DM-301S-1</h2>
+            <ul>
+                <li>Certified in using SQL to create database structures and manipulate data</li>
+            </ul>
+        </dd>
+
+        <dd class="clear"></dd>
+
+        <dt>Achievements</dt>
+        <dd>
+            <h2>Scholarships</h2>
+            <ul>
+                <li>IMDA IIS scholarship</li>
+                <li>Temasek Polytechnic scholarship</li>
+            </ul>
+
+            <h2>Awards</h2>
+            <ul>
+                <li>RSA Course Silver Medal</li>
+                <li>PCS Security Special Industry Prize</li>
+                <li>ISACA Singapore Chapter Prize</li>
+            </ul>
+
+            <h2>Special programs</h2>
+            <ul>
+                <li>NUS Overseas College (NOC) Israel</li>
+            </ul>
+        </dd>
+
+        <dd class="clear"></dd>
+
+        <dt>Projects</dt>
+        <dd>
+            <h2>Karate-Gatling automated framework</h2>
+            <ul>
+                <li>Created an automated testing framework for company’s product testing using Karate-Gatling</li>
+            </ul>
+
+            <h2>Selenium automated framework platform</h2>
+            <ul>
+                <li>Created an automated functional testing platform to assist in product testing using Selenium software</li>
+            </ul>
+
+            <h2>Bittorrent forensics</h2>
+            <ul>
+                <li>Constructed a BitTorrent investigation procedure</li>
+                <li>Designed and modified a BitTorrent client to automate the identification, collection, examination of evidences related to an investigation</li>
+            </ul>
+
+            <h2>Research with the central narcotics bureau (CNB Singapore)</h2>
+            <ul>
+                <li>Analyzed database and security measures for instant messaging applications</li>
+                <li>Report and presentation of research findings to relevant officials</li>
+            </ul>
+        </dd>
+
+        <dd class="clear"></dd>
+
+        <dt>Dream</dt>
+        <dd>To have 2 dogs and 1 cat</dd>
 
         <dd class="clear"></dd>
 
